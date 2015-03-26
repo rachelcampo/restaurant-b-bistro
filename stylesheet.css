@@ -6,10 +6,11 @@ body {
 	background-image: url(images/food.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	font-family: 'Josefin Sans', sans-serif;
 	color:#FFFFFF;
-	padding-left: 170px;
-	padding-right: 170px;
+	padding-left: 10%;
+	padding-right: 10%;
 	}
 	
 .site-header {
@@ -147,17 +148,64 @@ h6 {
 	color: rgba(235,186,132,1.00);
 	text-decoration: none;
 	}
+	
+	
+	
+	
 /*Media Queries*/
-@media (max-width: 360px) {
-#body {
-	align: center;
-	clear: both;
-	padding: inherit;
-	align-content:center;
+@media (max-width: 600px) {
+	.address {
+		float: left;
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+		line-height: 13px;
+		}
+		
+	.phone-number {
+		float: left;
+		width: 100%;
+		text-align:center;
+		padding-bottom: 20px;
+	
+		}
+		
+	.site-header {
+		padding: 0;	
+		}
+	
+	img {
+		align-content: center;
+		float: none;
+		}
+		
+	h1 {
+		margin-top: 30px;
+		margin-bottom: 50px;
+		}
+	.main-content {
+		margin-right: 0;
+		}
+		
+	h5 {
+		line-height: 20px;
+		}
+		
+	.map {
+		float: none;
+		width: auto;
+			
+		}
+	
+	
+		
 	
 	}
 
-	}
+
+
+
+
 
 /*Gridlover Format*/
 body {
